@@ -56,7 +56,7 @@ function ..() {
 }
 set -o vi
 alias ls="ls -G"
-alias l=ls -G
+alias l="ls -G"
 alias ll="ls -ltrG"
 
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"

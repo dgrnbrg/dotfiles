@@ -7,8 +7,8 @@ mkdir -p ../bin
 
 # Set up vim+neobundle
 ln .vimrc ../
-mkdir -p /Users/dgrnbrg/.vim/bundle
-git clone git://github.com/Shougo/neobundle.vim /Users/dgrnbrg/.vim/bundle/neobundle.vim
+mkdir -p ~/.vim/bundle
+git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 
 # Set up Leiningen
 mkdir -p ../.lein
