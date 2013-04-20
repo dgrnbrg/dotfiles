@@ -1,4 +1,4 @@
-set nocompatible
+﻿set nocompatible
 
 let maplocalleader = ","
 
@@ -40,6 +40,7 @@ NeoBundle 'guns/vim-clojure-static'
 NeoBundle 'kien/rainbow_parentheses.vim'
 NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'mrdomino/vim-utf8'
 
 filetype plugin indent on
 
