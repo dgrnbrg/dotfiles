@@ -13,5 +13,5 @@ git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 # Set up Leiningen
 mkdir -p ../.lein
 ln profiles.clj ../.lein/
-curl -o ../bin https://raw.github.com/technomancy/leiningen/stable/bin/lein
+curl -o ../bin/lein https://raw.github.com/technomancy/leiningen/stable/bin/lein
 chmod +x ../bin/lein
