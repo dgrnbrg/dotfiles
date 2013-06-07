@@ -1,17 +1,20 @@
 #!/bin/sh
 
 # Initialize bashrc
-ln .bashrc ../
-source ../.bashrc
-mkdir -p ../bin
+ln .bashrc $HOME
+source $HOME/.bashrc
+mkdir -p $HOME/bin
 
 # Set up vim+neobundle
-ln .vimrc ../
-mkdir -p ~/.vim/bundle
-git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+ln .vimrc $HOME
+mkdir -p $HOME/.vim/bundle
+git clone git://github.com/Shougo/neobundle.vim $HOME/.vim/bundle/neobundle.vim
 
 # Set up Leiningen
-mkdir -p ../.lein
-ln profiles.clj ../.lein/
-curl -o ../bin https://raw.github.com/technomancy/leiningen/stable/bin/lein
-chmod +x ../bin/lein
+mkdir -p $HOME/.lein
+ln profiles.clj $HOME/.lein/
+curl -o $HOME/bin https://raw.github.com/technomancy/leiningen/stable/bin/lein
+chmod +x $HOME/bin/lein
+
+# Set up gitconfig
+ln .gitconfig $HOME

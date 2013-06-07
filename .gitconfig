@@ -1,0 +1,12 @@
+[user]
+	name = David Greenberg
+	email = dsg123456789@gmail.com
+[core]
+	editor = vim
+[alias]
+    st = status
+    br = branch
+    di = diff
+    ci = commit
+    co = checkout
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
