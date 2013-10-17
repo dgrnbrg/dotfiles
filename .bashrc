@@ -59,4 +59,7 @@ alias ls="ls -G"
 alias l="ls -G"
 alias ll="ls -ltrG"
 
+export GREP_COLOR='1;37;41'
+export GREP_OPTIONS='--color=auto'
+
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
